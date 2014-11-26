@@ -5,6 +5,7 @@
   <title>Dice Rollator Tabajara</title>
   <link href='https://fonts.googleapis.com/css?family=Nova+Mono|Merienda+One|Inconsolata:400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="estilos.css">
+  <script type="text/javascript" src="principal.js"> </script>
 </head>
 <body>
   <header id="cabecalho">
@@ -60,9 +61,9 @@
       <input type="number" min="0" max="10" value="0" id="quantidadeD20" name="qtdeD20">
     </div>
 
-    <button type="button" id="rolar">Rolar</button>
+    <button type="button" onclick= "Roleta()" id="rolar">Rolar</button>
   </section>
-  <section id="recipienteResultados" class="oculto">
+  <section id="recipienteResultados" class="oculto1">
     <h2>Resultado</h2>
     <div id="resultado"></div>
   </section>
